@@ -1,0 +1,12 @@
+# Von copier verwaltet, nicht von Hand ändern.
+_commit: v0.3.1
+_src_path: git+npf-sync:npf_vorlage.git
+art: webseite
+exposition: 2
+groesse: klein
+klasse: oeffentlich
+personendaten: keine
+projektname: nga_webseite
+sprache: keine
+zweck: Öffentliche Seiten des Store-Büros von nga unter weltanschauung.app, etwa die
+    Datenschutzerklärungen der Apps.

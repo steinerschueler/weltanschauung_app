@@ -1,0 +1,12 @@
+# npf.toml – Projektsteckbrief
+schema = 2
+klasse = "oeffentlich"
+art = "webseite"
+sprachen = []
+personendaten = "keine"
+exposition = 2
+phase = "aktiv"
+groesse = "klein"
+abhaengig_von = []
+
+[ausnahmen]
