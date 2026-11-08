@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datenschutzerklärung — Dozenal Calc</title>
+  <style>
+    :root {
+      --bg: #1e1e1e;
+      --panel: #252525;
+      --text: #f0f0f0;
+      --accent: #ffd479;
+      --muted: #b0b0b0;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      padding: 24px;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 24px;
+      background: var(--panel);
+      border-radius: 12px;
+    }
+    h1 {
+      color: var(--accent);
+      font-size: 1.8em;
+      margin: 0 0 8px;
+      font-weight: 600;
+    }
+    h2 {
+      color: var(--accent);
+      font-size: 1.15em;
+      margin: 32px 0 8px;
+      font-weight: 600;
+    }
+    .stand {
+      color: var(--muted);
+      margin-bottom: 24px;
+      font-size: 0.95em;
+    }
+    p { margin: 8px 0; }
+    a { color: var(--accent); }
+    strong { color: var(--text); }
+    .lang-picker {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #3c3c3c;
+      direction: ltr;
+    }
+    .lang {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    .lang .flag { font-size: 14px; line-height: 1; }
+    .lang:hover { background: #2a2a2a; color: var(--text); }
+    .lang.current { background: #3c3c3c; color: var(--text); font-weight: bold; }
+
+    @media (max-width: 480px) {
+      body { padding: 12px; }
+      main { padding: 20px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav class="lang-picker" aria-label="Language">
+      <a href="privacy.ar.html" class="lang"><span class="flag">🇪🇬</span> <span>العربية</span></a>
+      <a href="privacy.cy.html" class="lang"><span class="flag"><svg width="22" height="13" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:-3px"><rect width="100" height="30" fill="#fff"/><rect y="30" width="100" height="30" fill="#00603B"/><path d="M15,27.4 Q17.8,23.4 24.8,23.4 C30.4,20.1 36,16.8 44.4,17.5 C55.6,15.2 64,19.4 69.6,23.4 C76.6,24.1 83.6,19.4 85,24.1 C82.2,29.3 72.4,28.7 69.6,30 C73.8,34 69.6,39.2 61.2,39.2 L59.8,43.9 L54.2,43.9 C52.8,41.2 48.6,39.9 44.4,40.6 C38.8,40.6 36,42.5 34.6,43.9 L29,43.9 C29,39.2 31.8,35.3 34.6,33.3 C27.6,34 22,30.7 24.8,28 Z" fill="#D00C27"/></svg></span> <span>Cymraeg</span></a>
+      <a href="privacy.de.html" class="lang current"><span class="flag">🇩🇪</span> <span>Deutsch</span></a>
+      <a href="privacy.en.html" class="lang"><span class="flag">🇬🇧</span> <span>English</span></a>
+      <a href="privacy.es.html" class="lang"><span class="flag">🇪🇸</span> <span>Español</span></a>
+      <a href="privacy.fa.html" class="lang"><span class="flag">🇮🇷</span> <span>فارسی</span></a>
+      <a href="privacy.fr.html" class="lang"><span class="flag">🇫🇷</span> <span>Français</span></a>
+      <a href="privacy.ga.html" class="lang"><span class="flag">🇮🇪</span> <span>Gaeilge</span></a>
+      <a href="privacy.hi.html" class="lang"><span class="flag">🇮🇳</span> <span>हिन्दी</span></a>
+      <a href="privacy.it.html" class="lang"><span class="flag">🇮🇹</span> <span>Italiano</span></a>
+      <a href="privacy.ja.html" class="lang"><span class="flag">🇯🇵</span> <span>日本語</span></a>
+      <a href="privacy.ru.html" class="lang"><span class="flag">🇷🇺</span> <span>Русский</span></a>
+      <a href="privacy.zh.html" class="lang"><span class="flag">🇨🇳</span> <span>简体中文</span></a>
+      <a href="privacy.zh-Hant.html" class="lang"><span class="flag">🇭🇰</span> <span>繁體中文</span></a>
+    </nav>
+    <h1>Datenschutzerklärung — Dozenal Calc</h1>
+    <p class="stand"><strong>Stand:</strong> 2. Mai 2026</p>
+
+    <h2>Wer steht hinter der App?</h2>
+    <p>
+      Dozenal Calc wird entwickelt und veröffentlicht von
+      <strong>Eric Naville</strong>, Bern, Schweiz. Bei Fragen zu dieser
+      Erklärung oder zur App kannst du mich erreichen unter:
+      <a href="mailto:dozenal@weltanschauung.app">dozenal@weltanschauung.app</a>.
+    </p>
+
+    <h2>Welche Daten werden gesammelt?</h2>
+    <p>
+      <strong>Keine.</strong> Die App sammelt, speichert und überträgt
+      keinerlei personenbezogene Daten. Sie funktioniert komplett lokal
+      auf deinem Gerät und kommuniziert nicht mit Servern.
+    </p>
+
+    <h2>Welche Berechtigungen verlangt die App?</h2>
+    <p>
+      Dozenal Calc fordert keine Android-Berechtigungen an — keinen
+      Zugriff auf Kamera, Mikrofon, Standort, Kontakte, Speicher oder
+      Internet. Die App läuft offline und kann das auch immer.
+    </p>
+
+    <h2>Werden Daten an Dritte weitergegeben?</h2>
+    <p>Nein. Da nichts erhoben wird, gibt es auch nichts weiterzugeben.</p>
+
+    <h2>Tracking, Analytics, Werbung</h2>
+    <p>
+      Die App enthält <strong>keine Werbung</strong>,
+      <strong>kein Tracking-SDK</strong> und
+      <strong>keine Analytics-Pakete</strong>. Es findet keinerlei
+      Beobachtung deines Verhaltens statt.
+    </p>
+
+    <h2>Jugendschutz</h2>
+    <p>
+      Die App ist für alle Altersgruppen geeignet.
+    </p>
+
+    <h2>Verwendete Open-Source-Komponenten</h2>
+    <p>
+      Die App ist mit dem Flutter-Framework (Google) gebaut und nutzt
+      das offen verfügbare Paket <code>flutter_markdown_plus</code>
+      für die Anzeige dieser und der Lizenz-Seite. Alle eingebundenen
+      Komponenten arbeiten ebenfalls lokal und übertragen keine Daten.
+    </p>
+
+    <h2>Änderungen dieser Erklärung</h2>
+    <p>
+      Sollten zukünftige Versionen der App Funktionen einführen, die eine
+      Datenerhebung erfordern, wird diese Erklärung vorab entsprechend
+      angepasst, und in der App wird deutlich vermerkt, dass eine Anpassung
+      stattgefunden hat. Das Datum am Anfang dieser Seite zeigt jeweils die
+      aktuelle Fassung.
+    </p>
+
+    <h2>Kontakt</h2>
+    <p>
+      Bei Fragen zu dieser Datenschutzerklärung:
+      <a href="mailto:dozenal@weltanschauung.app">dozenal@weltanschauung.app</a>.
+    </p>
+  </main>
+</body>
+</html>

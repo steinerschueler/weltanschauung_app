@@ -1,0 +1,8 @@
+# GitHub Pages (Jekyll): serve only the site, not the project files.
+exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - LICENSE
+  - README.md
+  - SECURITY.md
+  - npf.toml
