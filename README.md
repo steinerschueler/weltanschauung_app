@@ -1,4 +1,4 @@
-# nga_webseite
+# weltanschauung_app
 
 ## Zweck
 

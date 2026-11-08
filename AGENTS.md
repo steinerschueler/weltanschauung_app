@@ -1,4 +1,4 @@
-# nga_webseite
+# weltanschauung_app
 
 Öffentliche Seiten des Store-Büros von nga unter weltanschauung.app, etwa die Datenschutzerklärungen der Apps.
 
