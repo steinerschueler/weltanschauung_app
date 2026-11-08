@@ -1,0 +1,9 @@
+# npf SEC-11: version updates only after a 7-day cooldown.
+version: 2
+updates:
+  - package-ecosystem: pre-commit
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
